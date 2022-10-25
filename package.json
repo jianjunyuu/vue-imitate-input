@@ -1,0 +1,31 @@
+{
+  "name": "vue-imitate-input",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue-demi": "^0.13.11"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.27.0",
+    "eslint": "^8.26.0",
+    "vue": "^3.2.36",
+    "vue2": "npm:vue@^2.6.0"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1.0.0-rc.1",
+    "vue": "^3.0.0-0 || ^2.6.0"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
+  }
+}
