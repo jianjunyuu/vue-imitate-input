@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import { ImitateInput } from 'vue-imitate-input'
+import ImitateInput from './components/ImitateInput.vue'
 
 const value = ref(10)
 </script>
